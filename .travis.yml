@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- node
+- '6'
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: valiantejoe16@gmail.com
+  api_key:
+    secure: I1jbLyCHc83m6BRG0VyWSRUUHzAqNdzPa/9Kgsk2I/vuGWIubAxoziZBV9ne2LODuZ9amQ6+GSY2QzVBdV4zEu8Tn72D6YX42KzGYkZrgdq8+Sa9DiVna4mInbXRPgbaMZkEy8sWYbI/in8yW9HG9/kv/CLBt41RkQ3cuBgSjmDwQIkR8fc9XjwUa6+ad/dBhgGYytR4SYZXK5hvIosEv1uaQxAA8h+4ZjJt5O7WB08y/W+2AMK3S0O0AiYG01W/CXax3Pi1SULWz+urMVg7yTcKazsrsuQoh+lJRMCI1YvNqSgrcki8PFLdj7NaVx/1IIzjXRfhAe9wsoPP6EeTnRSFJ+D+eoLUttEd355kH3K3ycqtjvkXYczyQCa0VyHKrNADfgnQTP9ASv4KA7xBijIgBTJvVXIv5NiyofuC/wmYWBpqutocU1QGdSGmTPmyolniTzZe/ZLZupmvxEtfGGT0RvtdzzVkTDMMddoA6O+wLfkMY7+cSo+y2bifTTReEx0cmhau9x8Y8LoIHn9Eosu3fJZE1vg85DqG0YhTfuaU+DzAYHzJx9X8QkKWatO89E6oGGhtmd2ExvCH82QeQsVCRWc5jhCoeIq1FhxU1IQzFVgH/3yJYeIF0tGFROMdIsiEI8O80UzmZ4AQMLFYBYa5tNALn5vxGtyFs894NKM=
+  on:
+    tags: true
+    repo: bolorundurovj/masks-js
